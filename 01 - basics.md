@@ -2,7 +2,7 @@
 # Basics
 
 We're all familiar with using a Computer that has a GUI, but GUIs are not really the programs that we're using the programs are running in the background and they just use GUIs to show us information and to allow us to interact with them. In a lot of cases that is exactly what we want for photo editting, document layout, browsing the web, graphic design, watching movies and
-playing games. In the world of Software Development and System Administration most of the programs that we use don't have or don't need a GUIs. Servers, Utilities and other programs usually only need some text based information to do what they do. Many of these programs run on a server somewhere in a data center without a monitor so the overhead of GUI is completely unnessecarry. One way we interact with these programs that don't have a GUI is throught the Command Line. The Command Line is a text based interface where we type commands and direct text based inputs and outputs to screens, files of other programs. The enviroment we use is called a shell of a Command-line interpreter. The Command-line interpreter was one of the earliest ways of interacting with a General Purpose Computer. The are many shells out there the common ones are:
+playing games. In the world of Software Development and System Administration most of the programs that we use don't have or don't need a GUIs. Servers, Utilities and other programs usually only need some text based information to do what they do. Many of these programs run on a server somewhere in a data center without a monitor so the overhead of GUI is completely unnessecarry. One way we interact with these programs that don't have a GUI is through the Command Line. The Command Line is a text based interface where we type commands and direct text based inputs and outputs to screens, files of other programs. The enviroment we use is called a shell of a Command-line interpreter. The Command-line interpreter was one of the earliest ways of interacting with a General Purpose Computer. The are many shells out there the common ones are:
 
 * 1971 &mdash; Thompson Shell for Unix
 * Bash
@@ -22,7 +22,7 @@ Everything apart from the command name is mostly optional. You could have a vali
 
 `ls` which is short for list it lists the files in the specified directory.
 
-Options the command how to operate i.e changing the behaviour of the command or telling it to perform different actions. A few points about options:
+Options tell the commands how to operate i.e changing the behaviour of the command or telling it to perform different actions. A few points about options:
 
 * Start with a dash
 * Usually one letter
@@ -52,7 +52,7 @@ The last portion of a statement is the argument(s) or argument this is where you
 ls Desktop
 ```
 
-In this example we're tellinf the ls command to show us the contents of the Desktop.
+In this example we're telling the ls command to show us the contents of the Desktop.
 
 ## Write commands in a shell prompt
 
@@ -81,6 +81,6 @@ View the reference manual or man page for a specified command. You can think of 
 man ls
 ```
 
-![man](../cli-basics/resources/man.png)
+![man](./resources/man.png)
 
 As shown in the screenshot above via `man` we can see some inforrmation about the ls command. We can see that it's for listing directory contents. It also gives an overview of how to use the command in the synopsis section.
